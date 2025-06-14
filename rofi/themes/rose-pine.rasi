@@ -1,0 +1,23 @@
+* {
+    bg: #191724;
+    cur: #1f1d2e;
+    fgd: #e0def4;
+    cmt: #6e6a86;
+    cya: #9ccfd8;
+    grn: #31748f;
+    ora: #ebbcba;
+    pur: #c4a7e7;
+    red: #eb6f92;
+    yel: #f6c177;
+    gre: #d9e0ee;
+    
+    bg-col: 		@bg;
+    bg-col-light: 	@bg;
+    border-col:		@ora;
+    selected-col:	@cmt;
+    fg-col:		@fgd;
+    fg-col2:		@pur;
+    blue:		@pur;
+    grey:		@gre;
+    width: 500;
+}
