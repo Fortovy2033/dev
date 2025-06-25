@@ -78,8 +78,9 @@ alias re='nvim ~/.config/rofi/config.rasi'
 alias wce='nvim ~/.config/waybar/config'
 alias wse='nvim ~/.config/waybar/style.css'
 alias c='clear'
-alias ls='eza -aRTL1 --icons --width=3 --group-directories-first --hyperlink'
+alias ls='eza -a --icons --width=3 --group-directories-first --hyperlink'
 alias ll='eza -halb --icons --width=3 --total-size --group-directories-first --hyperlink'
+alias cls='clear && ll'
 
 # Shell integrarions
 eval "$(fzf --zsh)"
